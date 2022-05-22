@@ -10,7 +10,7 @@ pipeline {
         stage('Source Code') {
             steps {
                 git url: 'https://github.com/GitPracticeRepo/myspringpetclinic.git', 
-                branch: 'sprint_relase_1'
+                branch: 'sprint_release_1'
             }
             
         }
